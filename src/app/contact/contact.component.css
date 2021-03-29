@@ -1,0 +1,29 @@
+.contact-info {
+    width: 100%;
+    padding-top: 2em;
+    padding-left: 2em;
+    color: #66CC99;
+}
+
+.contact-title {
+    width: 25%;
+    float: left;
+    padding: 0.5em;
+}
+
+.contact-detail {
+    color: grey;
+    float: left;
+    padding: 0.5em;
+}
+
+.social {
+    text-align: center;
+    padding: 50px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}

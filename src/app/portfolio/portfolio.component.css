@@ -1,0 +1,14 @@
+.content {
+    padding: 2em;    
+}
+
+p {
+    padding-left: 2em;
+    padding-top: 0px;
+}
+
+h3 {
+    width: 100%;
+    padding-left: 30px;
+    color: #66CC99;
+}

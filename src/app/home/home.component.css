@@ -1,0 +1,22 @@
+.profile {
+    width: 40%;
+    text-align: left;
+    float: left;
+    padding: 3em 3em;
+}
+
+.img_avartar {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    float: left;
+    padding: 0 1em;
+}
+
+.name {
+    float: left;
+}
+
+.avatar {
+    border-radius: 50%;
+}
