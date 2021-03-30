@@ -1,12 +1,12 @@
 <div class="contact-info clear">
-    <div class="contact-title">ที่อยู่ :</div>
-    <div class="contact-detail">บางใหญ่ นนทบุรี</div>
+    <div class="contact-title">{{ contact[0].title }}</div>
+    <div class="contact-detail">{{ contact[0].detail }}</div>
     <div class="clear"></div>
-    <div class="contact-title">มือถือ :</div>
-    <div class="contact-detail">086-896-6386</div>
+    <div class="contact-title">{{ contact[1].title }}</div>
+    <div class="contact-detail">{{ contact[1].detail }}</div>
     <div class="clear"></div>
-    <div class="contact-title">E-Mail :</div>
-    <div class="contact-detail"><a href="mailto:sasangchai@gmail.com">sasangchai@gmail.com</a></div>
+    <div class="contact-title">{{ contact[2].title }}</div>
+    <div class="contact-detail"><a href="mailto:{{ contact[2].detail }}">{{ contact[2].detail }}</a></div>
     <div class="clear"></div>
 </div>
 <div class="clear social">
